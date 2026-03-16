@@ -1,0 +1,33 @@
+# Core data science
+pandas
+numpy
+scikit-learn
+xgboost
+
+# Feast feature store
+feast
+redis
+
+# API and web
+fastapi
+uvicorn
+pydantic
+
+# Data version control
+dvc
+
+# Data download
+kagglehub
+opendatasets
+
+# Workflow orchestration
+prefect
+
+# Dev tools
+jupyter
+black
+flake8
+
+# Streamlit and visualization
+streamlit
+plotly

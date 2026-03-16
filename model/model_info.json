@@ -1,0 +1,55 @@
+{
+  "feature_names": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "total_services",
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges",
+    "customer_tenure_ratio",
+    "monthly_charge_avg"
+  ],
+  "feature_importance": {
+    "gender": 0.01622022618645594,
+    "SeniorCitizen": 0.022950467220309884,
+    "Partner": 0.014849631228293535,
+    "Dependents": 0.01651551351186622,
+    "total_services": 0.07710774695297834,
+    "tenure": 0.1546652462837765,
+    "MonthlyCharges": 0.19339072054727385,
+    "TotalCharges": 0.17076133767780477,
+    "customer_tenure_ratio": 0.15059352703457823,
+    "monthly_charge_avg": 0.18294558335666267
+  },
+  "training_date": "2026-03-16T00:55:21.900638",
+  "accuracy": 0.794180269694819,
+  "classification_report": {
+    "0": {
+      "precision": 0.8264680105170903,
+      "recall": 0.9111111111111111,
+      "f1-score": 0.8667279411764706,
+      "support": 1035.0
+    },
+    "1": {
+      "precision": 0.6567164179104478,
+      "recall": 0.47058823529411764,
+      "f1-score": 0.5482866043613707,
+      "support": 374.0
+    },
+    "accuracy": 0.794180269694819,
+    "macro avg": {
+      "precision": 0.741592214213769,
+      "recall": 0.6908496732026144,
+      "f1-score": 0.7075072727689207,
+      "support": 1409.0
+    },
+    "weighted avg": {
+      "precision": 0.7814097453397416,
+      "recall": 0.794180269694819,
+      "f1-score": 0.7822019937180977,
+      "support": 1409.0
+    }
+  }
+}
